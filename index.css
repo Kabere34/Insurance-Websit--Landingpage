@@ -254,7 +254,7 @@ input {
   color: #777877;
 }
 #standard {
-  background-color: #303030;
+  background-color: #252b42;
   color: white;
   height: 472px;
   border-radius: 10px;
@@ -273,7 +273,39 @@ input {
 p {
   color: rgb(26, 26, 26);
 }
+.branches {
+  background-color: #252b42;
+  color: white;
+}
+.branches-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 500px;
+  margin-left: 115px;
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
+.branches-txt {
+  width: 400px;
+}
+.branches-txt h3 {
+  font-size: 30px;
+}
+}
+#btxt p{
+  color: white;
+}
+.branches-img {
+  width: 300px;
+}
+.branches-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
 /* @media (max-width: 768px) {
   h1 {
     bottom: 73px;

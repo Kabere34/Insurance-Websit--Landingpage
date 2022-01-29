@@ -276,6 +276,7 @@ p {
 .branches {
   background-color: #252b42;
   color: white;
+  height: 480px;
 }
 .branches-content {
   display: flex;
@@ -308,12 +309,44 @@ p {
   max-width: 100%;
   max-height: 100%;
 }
-.app-form {
-  width: 500px;
-  border: 1px solid black;
-  height: 400px;
+.appointment-container {
+  display: flex;
+  justify-content: center;
 }
+.appointment {
+  width: 540px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  padding: 8px;
+  position: relative;
+  bottom: 217px;
+}
+.app-form {
+  width: 494px;
+  /* border: 1px solid black; */
+  height: 424px;
+  background-color: white;
+  padding: 24px;
+}
+.app-form div {
+  padding: 10px;
+}
+.app-img {
+  width: 285px;
+  height: 439px;
+}
+.app-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+legend {
+  font-weight: 600;
+  display: flex;
 
+  justify-content: center;
+}
 /* @media (max-width: 768px) {
   h1 {
     bottom: 73px;

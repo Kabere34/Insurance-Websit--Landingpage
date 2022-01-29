@@ -142,7 +142,7 @@ h1 {
   margin-right: auto;
 }
 #rating {
-  color: #ffdf00;
+  color: #fdcc0d;
   margin-top: 5px;
   display: flex;
   justify-content: center;
@@ -163,7 +163,36 @@ h1 {
   max-width: 70%;
   max-height: 100%;
 }
-
+.subscription {
+  border: 1px solid transparent;
+  width: 75%;
+  display: flex;
+  margin: auto;
+  height: 80px;
+  margin-bottom: 20px;
+  align-items: center;
+  padding-left: 20px;
+  background: linear-gradient(to right, #021f87, #ca3693);
+  color: white;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+.subscription span {
+  position: relative;
+  left: 566px;
+  bottom: 10px;
+}
+#email {
+  width: 200px;
+}
+#subscribe {
+  margin-left: -8px;
+  background-color: #23a6f0;
+  color: white;
+  margin-right: 5px;
+}
 /* @media (max-width: 768px) {
   h1 {
     bottom: 73px;

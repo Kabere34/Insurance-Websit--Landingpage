@@ -430,6 +430,11 @@ footer i {
 footer h5 {
   margin-bottom: 7px;
 }
+.socials {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 /* @media (max-width: 768px) {
   h1 {
     bottom: 73px;

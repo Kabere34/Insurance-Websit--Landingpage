@@ -114,6 +114,30 @@ h1 {
   margin-top: 50px;
   margin-bottom: 20px;
 }
+.industry {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+.industry-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 50px;
+}
+.ind1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* .ind1 {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+} */
 
 /* @media (max-width: 768px) {
   h1 {

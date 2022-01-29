@@ -200,10 +200,12 @@ input {
   flex-direction: column;
   display: flex;
   text-align: center;
+  margin-bottom: 50px;
 }
 .pricing span {
   display: flex;
   flex-direction: column;
+  margin-bottom: 42px;
 }
 .png-content {
   display: flex;
@@ -212,10 +214,62 @@ input {
   text-align: center;
 }
 .png-content div {
-  border: 0.2px solid #23a6f0;
+  border: 0.1px solid #23a6f0;
   background-color: white;
-  padding: 20px;
-  height: 240px;
+  padding: 10px;
+  height: 450px;
+}
+.png-content h4 {
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+.png-content .fas {
+  color: #1cb34e;
+}
+.png-content p {
+  padding: 8px;
+}
+.png-content button {
+  background-color: #23a6f0;
+  color: white;
+  width: 153px;
+  height: 31px;
+  border-radius: 5px;
+}
+.ptxt {
+  margin: 15px;
+}
+.price {
+  margin-bottom: 15px;
+  color: #23a6f0;
+}
+#y {
+  margin-left: -48px;
+}
+#y2 {
+  margin-left: -27px;
+}
+#y .fas,
+#y2 .fas {
+  color: #777877;
+}
+#standard {
+  background-color: #303030;
+  color: white;
+  height: 472px;
+  border-radius: 10px;
+}
+#standard p {
+  color: white;
+}
+
+.free,
+.prem {
+  margin-top: 22px;
+  border-radius: 10px;
+}
+p {
+  color: rgb(26, 26, 26);
 }
 
 /* @media (max-width: 768px) {

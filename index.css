@@ -123,21 +123,21 @@ h1 {
 .industry-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
-  margin: 50px;
+  justify-content: space-evenly;
+  margin-top: 50px;
 }
 .ind1 {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 20%;
+  border: 0.5px solid black;
+  padding: 20px;
+  background-color: white;
 }
-/* .ind1 {
-  width: 30%;
-  display: flex;
-  justify-content: space-between;
-} */
+.ind1 img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* @media (max-width: 768px) {
   h1 {

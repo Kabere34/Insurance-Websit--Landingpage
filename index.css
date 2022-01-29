@@ -163,6 +163,9 @@ h1 {
   max-width: 70%;
   max-height: 100%;
 }
+.services {
+  margin-bottom: 80px;
+}
 .subscription {
   border: 1px solid transparent;
   width: 75%;
@@ -193,6 +196,28 @@ input {
   color: white;
   margin-right: 5px;
 }
+.png-txt {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+.pricing span {
+  display: flex;
+  flex-direction: column;
+}
+.png-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.png-content div {
+  border: 0.2px solid #23a6f0;
+  background-color: white;
+  padding: 20px;
+  height: 240px;
+}
+
 /* @media (max-width: 768px) {
   h1 {
     bottom: 73px;

@@ -96,7 +96,7 @@ h1 {
 .b1 h3 {
   padding-bottom: 5px;
 }
-.fas {
+.b1 i {
   color: #23a6f0;
   padding-bottom: 5px;
 }
@@ -137,6 +137,13 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+#rating {
+  color: #ffdf00;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 /* @media (max-width: 768px) {

@@ -95,11 +95,6 @@ a:hover {
   color: #23a6f0;
 }
 .hero-text {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  bottom: 50%;
-  transform: translate(-50%, -50%); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,12 +102,9 @@ a:hover {
   color: white;
 }
 h1 {
-  /* position: relative;
-  bottom: 93px; */
   font-size: 65px;
 }
 .hero-text p {
-  /* margin-top: -32px; */
   margin-bottom: 50px;
   color: white;
 }
@@ -183,9 +175,7 @@ h1 {
 .b1 {
   border: 1px solid transparent;
   padding: 15px;
-  padding-top: 30px;
-  position: relative;
-  z-index: 2;
+  padding-top: 40px;
   background-color: white;
 }
 @media (max-width: 480px) {
@@ -278,6 +268,8 @@ h1 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 0px 80px;
+  padding: 0 52px;
 }
 @media (max-width: 480px) {
   .vectors {
@@ -290,33 +282,46 @@ h1 {
   margin-bottom: 20px;
 }
 .v1 {
-  max-width: 70%;
+  max-width: 50%;
   max-height: 100%;
 }
 .services {
   margin-bottom: 80px;
 }
 .subscription {
-  border: 1px solid transparent;
-  width: 75%;
   display: flex;
-  margin: auto;
-  height: 80px;
-  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding-left: 20px;
   background: linear-gradient(to right, #021f87, #ca3693);
   color: white;
+  padding: 30px 0;
 }
+
 input {
   padding: 10px;
   border-radius: 5px;
 }
-.subscription span {
-  position: relative;
-  left: 566px;
-  bottom: 10px;
+
+@media (max-width: 480px) {
+  .subscription {
+    display: flex;
+    justify-content: center;
+  }
 }
+.sub-form {
+  display: flex;
+  flex-direction: row;
+  text-align-last: center;
+}
+@media (max-width: 480px) {
+  .sub-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 #email {
   width: 200px;
   border: none;
@@ -543,9 +548,8 @@ footer {
   flex-direction: row;
 }
 @media (max-width: 480px) {
-  .footer {
+  footer {
     flex-direction: column;
-    align-items: center;
   }
 }
 footer ul {

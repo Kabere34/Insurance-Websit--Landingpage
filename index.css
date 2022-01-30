@@ -55,7 +55,7 @@ a:hover {
 }
 h1 {
   position: relative;
-  bottom: 80px;
+  bottom: 93px;
   font-size: 67px;
 }
 .hero-text p {
@@ -72,12 +72,13 @@ h1 {
   border: none;
 }
 #buttonl {
-  width: 80px;
+  width: 90px;
   height: 37px;
   color: white;
   border-radius: 27px;
   border: 0.5px solid white;
   background-color: transparent;
+  margin-left: 8px;
 }
 #buttonx {
   border: none;
@@ -93,7 +94,9 @@ h1 {
   width: 146px;
   margin-left: 18px;
 }
-
+.option-buttons {
+  margin-left: 80px;
+}
 @media (max-width: 520px) {
   .hero-section {
     width: 100%;
@@ -133,7 +136,8 @@ h1 {
 .b1 h3 {
   padding-bottom: 5px;
 }
-.b1 i {
+.b1 i,
+.b2 i {
   color: #23a6f0;
   padding-bottom: 5px;
 }
@@ -151,7 +155,9 @@ h1 {
   margin-top: 50px;
   margin-bottom: 20px;
 }
-
+.b2 i {
+  font-size: 30px;
+}
 .industry {
   display: flex;
   flex-direction: column;
@@ -430,6 +436,7 @@ h5 {
   border-radius: 5px;
   border: none;
 }
+
 .footer-container a {
   color: rgb(26, 26, 26);
 }
@@ -465,6 +472,10 @@ footer h5 {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+  color: #23a6f0;
+  position: relative;
+  right: 21%;
+  height: 21px;
 }
 /* @media (max-width: 768px) {
   h1 {

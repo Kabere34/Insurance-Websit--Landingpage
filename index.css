@@ -3,8 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: rgb(240, 239, 237);
+  font-family: "Montserrat", sans-serif;
 }
 .hero-section {
   margin-bottom: 50px;
@@ -434,9 +436,7 @@ input {
   margin-top: 22px;
   border-radius: 10px;
 }
-p {
-  color: rgb(26, 26, 26);
-}
+
 .branches {
   display: flex;
   flex-direction: column;

@@ -480,15 +480,14 @@ p {
   }
 }
 .app-form {
-  width: 494px;
   background-color: white;
-  padding: 24px;
 }
+
 .app-form div {
   padding: 10px;
 }
 .app-form input {
-  width: 99%;
+  padding: 10px 60px;
   background-color: rgb(243, 239, 239);
   border: none;
 }

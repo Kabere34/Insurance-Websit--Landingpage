@@ -127,9 +127,9 @@ h1 {
   background-color: transparent;
   margin-left: 8px;
 }
-@media (max-width: 520px) {
+@media (max-width: 480px) {
   #buttonl {
-    margin: 10px;
+    margin: 8px;
   }
 }
 #buttonx {
@@ -153,13 +153,13 @@ h1 {
     height: 100vh;
   }
   .hero-text p {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
   .hero-text {
     margin-top: 20px;
   }
   h1 {
-    font-size: 35px;
+    font-size: 28px;
   }
 }
 .benefits {
@@ -361,6 +361,9 @@ input {
     padding: 0 5px;
   }
 }
+.pricing {
+  margin-bottom: 50px;
+}
 .pricing span {
   display: flex;
   flex-direction: column;
@@ -442,13 +445,13 @@ input {
   flex-direction: column;
   background-color: #252b42;
   color: white;
-  padding: 43px 0;
+  padding: 80px 0;
 }
 
 .branches-content {
   display: flex;
   flex-direction: row;
-  padding: 50px 0px;
+  padding: 30px 0px;
   margin: 0px 50px;
 }
 
@@ -486,7 +489,7 @@ input {
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  margin-top: -50px;
+  margin-top: -70px;
 }
 @media (max-width: 480px) {
   .appointment {

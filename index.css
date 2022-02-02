@@ -8,6 +8,11 @@ body {
   background-color: rgb(240, 239, 237);
   font-family: "Montserrat", sans-serif;
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .hero-section {
   margin-bottom: 50px;
 }
@@ -385,7 +390,6 @@ input {
   border: 0.1px solid #23a6f0;
   background-color: white;
   padding: 10px;
-  height: 450px;
 }
 .png-content h4 {
   margin-bottom: 18px;
